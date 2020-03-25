@@ -1,0 +1,13 @@
+my:
+  message: hello i am from config server
+db:
+  url: http//mysql
+  user: sparsh
+  password: sparsh@123
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
